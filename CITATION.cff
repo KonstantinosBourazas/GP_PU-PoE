@@ -2,20 +2,32 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
 title: "GP-PU-PoE: code for Tax Fraud Detection via Bayesian Positive–Unlabeled Learning with Gaussian Processes and Multilayer Networks"
 type: software
+version: 1.0.0
+date-released: 2026-09-29
+repository-code: "https://github.com/KonstantinosBourazas/GP_PU-PoE"
 license: MIT
+
 authors:
   - family-names: Bourazas
     given-names: Konstantinos
     affiliation: "Department of Statistics and Actuarial-Financial Mathematics, University of the Aegean, Samos, Greece"
+    orcid: "https://orcid.org/0000-0002-2691-4869"
+
   - family-names: Alexopoulos
     given-names: Angelos
     affiliation: "Department of Economics, Athens University of Economics and Business, Athens, Greece"
+    orcid: "https://orcid.org/0000-0002-5723-6570"
+
   - family-names: Dellaportas
     given-names: Petros
     affiliation: "Department of Statistical Science, University College London, London, United Kingdom"
+    orcid: "https://orcid.org/0000-0002-0117-8447"
+
   - family-names: Kalogeropoulos
     given-names: Konstantinos
     affiliation: "Department of Statistics, London School of Economics, London, United Kingdom"
+    orcid: "https://orcid.org/0000-0002-0330-9105"
+
 preferred-citation:
   type: article
   title: "Tax Fraud Detection via Bayesian Positive–Unlabeled Learning with Gaussian Processes and Multilayer Networks"
@@ -23,12 +35,19 @@ preferred-citation:
     - family-names: Bourazas
       given-names: Konstantinos
       affiliation: "Department of Statistics and Actuarial-Financial Mathematics, University of the Aegean, Samos, Greece"
+      orcid: "https://orcid.org/0000-0002-2691-4869"
+
     - family-names: Alexopoulos
       given-names: Angelos
       affiliation: "Department of Economics, Athens University of Economics and Business, Athens, Greece"
+      orcid: "https://orcid.org/0000-0002-5723-6570"
+
     - family-names: Dellaportas
       given-names: Petros
       affiliation: "Department of Statistical Science, University College London, London, United Kingdom"
+      orcid: "https://orcid.org/0000-0002-0117-8447"
+
     - family-names: Kalogeropoulos
       given-names: Konstantinos
       affiliation: "Department of Statistics, London School of Economics, London, United Kingdom"
+      orcid: "https://orcid.org/0000-0002-0330-9105"
