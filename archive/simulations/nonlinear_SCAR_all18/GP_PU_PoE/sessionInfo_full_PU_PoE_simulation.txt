@@ -1,0 +1,23 @@
+R version 4.5.3 (2026-03-11 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=English_United States.utf8  LC_CTYPE=English_United States.utf8    LC_MONETARY=English_United States.utf8
+[4] LC_NUMERIC=C                           LC_TIME=English_United States.utf8    
+
+time zone: Europe/Athens
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] igraph_2.3.3 Matrix_1.7-4
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.5.3  magrittr_2.0.5  cli_3.6.6       tools_4.5.3     Rcpp_1.1.1-1.1  RSpectra_0.16-2 grid_4.5.3      lifecycle_1.0.5 pkgconfig_2.0.3
+[10] rlang_1.2.0     lattice_0.22-9 

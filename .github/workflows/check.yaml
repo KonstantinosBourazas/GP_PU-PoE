@@ -1,0 +1,53 @@
+name: checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: release
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: any::Matrix, any::igraph, any::RSpectra, any::coda, any::ggplot2, any::patchwork, any::sessioninfo
+
+      - name: Static checks
+        run: |
+          for t in test_static test_sensitivity_static \
+                   test_linear_SCAR_all18_static test_nonlinear_SCAR_all18_static test_nonlinear_SAR_all18_static \
+                   test_linear_SCAR_all18_function_lookup test_nonlinear_SCAR_all18_function_lookup test_nonlinear_SAR_all18_function_lookup \
+                   test_bayesian_linear_priors test_linear_SCAR_root_locator test_locking; do
+            echo "::group::$t"
+            Rscript --vanilla "tests/$t.R"
+            echo "::endgroup::"
+          done
+
+      - name: Input checks
+        run: Rscript --vanilla tests/test_inputs.R
+
+      - name: Reproducibility check
+        run: Rscript --vanilla tests/test_reproducibility.R
+
+      - name: Illustrative example (quick mode)
+        run: Rscript --vanilla scripts/01_illustrative_example.R --mode=quick --action=all
+
+      - name: Expert scores (quick mode)
+        run: Rscript --vanilla scripts/01b_expert_conditioning.R --mode=quick --action=all
+
+      - name: Illustrative example and expert scores (saved results)
+        run: |
+          Rscript --vanilla tests/test_illustration_saved.R
+          Rscript --vanilla tests/test_expert_conditioning.R
+
+      - name: Prior sensitivity over 100 datasets (saved results)
+        run: |
+          Rscript --vanilla scripts/02b_prior_sensitivity_MC100.R --action=all
+          Rscript --vanilla sensitivity_mc100/tests/test_postprocessing.R

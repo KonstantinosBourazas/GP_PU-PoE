@@ -1,0 +1,17 @@
+"scenario","method","metric","direction","n_rep","mean","sd","mc_se","q025","median","q975"
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_AUC","higher",100,0.905838497652582,0.0313378816820309,0.00313378816820309,0.842989045383412,0.906478873239437,0.962076682316119
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_AUC","higher",100,0.720150234741784,0.09450989993331,0.009450989993331,0.529056338028169,0.72056338028169,0.886230046948357
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_LogLoss","lower",100,0.189616962661451,0.0125837103518413,0.00125837103518413,0.165897763259909,0.189216365516095,0.212479714272642
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_LogLoss","lower",100,3.06261806168832,0.423245485343672,0.0423245485343672,2.36937500664298,3.03731420674018,3.83067076350543
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_Brier","lower",100,0.0494167330313175,0.00330057204427102,0.000330057204427102,0.0431381094140111,0.0493444586267203,0.0564844964594376
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_Brier","lower",100,0.853101604181508,0.0452077181145813,0.00452077181145813,0.776210646750222,0.859329657193496,0.924221919686253
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_Recall_at_45","higher",100,0.736444444444444,0.034167636149139,0.0034167636149139,0.677222222222222,0.733333333333333,0.8
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_Recall_at_15","higher",100,0.224666666666667,0.109135980214267,0.0109135980214267,0.0316666666666667,0.2,0.4
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_Coverage_80","higher_with_interval_score",100,0.97225,0.0049172444447366,0.00049172444447366,0.965,0.9725,0.9825
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_Coverage_80","higher_with_interval_score",100,0.269333333333333,0.136303615672301,0.0136303615672301,0.0666666666666667,0.266666666666667,0.568333333333333
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_Interval_Score_80","lower",100,0.403,0.0433085593518338,0.00433085593518338,0.3235625,0.41,0.4688125
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_Interval_Score_80","lower",100,7.576,1.22673254105071,0.122673254105071,4.885,7.6,9.4
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_Coverage_95","higher_with_interval_score",100,0.989325,0.00604961598246977,0.000604961598246977,0.9786875,0.99,1
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_Coverage_95","higher_with_interval_score",100,0.716,0.160979047231579,0.0160979047231579,0.431666666666667,0.733333333333333,1
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Overall_Interval_Score_95","lower",100,0.908775,0.209901821386123,0.0209901821386123,0.5835625,0.89375,1.272875
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","PoE","Hidden_Interval_Score_95","lower",100,12.076,6.27818284203158,0.627818284203158,1,11.4,23.165

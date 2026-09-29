@@ -1,0 +1,8 @@
+  if (
+    n_blocked_burnin != 10000L ||
+    n_joint_burnin != 20000L ||
+    n_sample != 150000L ||
+    thin != 30L
+  ) {
+    stop("The requested 10k/20k/150k/thin-30 schedule was altered.")
+  }

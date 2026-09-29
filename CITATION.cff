@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "GP-PU-PoE: code for Tax Fraud Detection via Bayesian Positive–Unlabeled Learning with Gaussian Processes and Multilayer Networks"
+type: software
+license: MIT
+authors:
+  - family-names: Bourazas
+    given-names: Konstantinos
+    affiliation: "Department of Statistics and Actuarial-Financial Mathematics, University of the Aegean, Samos, Greece"
+  - family-names: Alexopoulos
+    given-names: Angelos
+    affiliation: "Department of Economics, Athens University of Economics and Business, Athens, Greece"
+  - family-names: Dellaportas
+    given-names: Petros
+    affiliation: "Department of Statistical Science, University College London, London, United Kingdom"
+  - family-names: Kalogeropoulos
+    given-names: Konstantinos
+    affiliation: "Department of Statistics, London School of Economics, London, United Kingdom"
+preferred-citation:
+  type: article
+  title: "Tax Fraud Detection via Bayesian Positive–Unlabeled Learning with Gaussian Processes and Multilayer Networks"
+  authors:
+    - family-names: Bourazas
+      given-names: Konstantinos
+      affiliation: "Department of Statistics and Actuarial-Financial Mathematics, University of the Aegean, Samos, Greece"
+    - family-names: Alexopoulos
+      given-names: Angelos
+      affiliation: "Department of Economics, Athens University of Economics and Business, Athens, Greece"
+    - family-names: Dellaportas
+      given-names: Petros
+      affiliation: "Department of Statistical Science, University College London, London, United Kingdom"
+    - family-names: Kalogeropoulos
+      given-names: Konstantinos
+      affiliation: "Department of Statistics, London School of Economics, London, United Kingdom"

@@ -1,0 +1,2 @@
+"Setting","Replications","True_eta","Mean_posterior_mean","Mean_HPD80_lower","Mean_HPD80_upper","Mean_HPD80_width","Coverage_HPD80"
+"DEFAULT",100,0.333333333333333,0.222090160781574,0.0735774173066041,0.339762098431359,0.266184681124755,0.52

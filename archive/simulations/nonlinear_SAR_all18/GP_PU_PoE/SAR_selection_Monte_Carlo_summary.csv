@@ -1,0 +1,7 @@
+"scenario","quantity","mean","sd","mc_se","q025","median","q975"
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","hidden_covariates_only",1.98,1.17189305541646,0.117189305541646,0,2,4
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","hidden_network_only",11.29,1.17460502710357,0.117460502710357,9,11,14
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","hidden_both",1.73,1.07172097981978,0.107172097981978,0,2,3.52499999999999
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","mean_score_hidden",-8.86273946880745,2.36293612766635,0.236293612766635,-13.6300012792707,-8.69086172508828,-4.85857256565858
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","mean_score_observed",8.17286259338897,1.37959118043597,0.137959118043597,5.78126393614118,8.13521694174406,10.7967795041906
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","observed_minus_hidden_score",17.0356020621964,2.84219669366797,0.284219669366797,11.5816028402426,16.558002198279,22.6243743224633

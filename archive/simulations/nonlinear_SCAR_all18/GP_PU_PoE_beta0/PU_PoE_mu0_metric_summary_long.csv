@@ -1,0 +1,17 @@
+"scenario","method","metric","direction","n_rep","mean","sd","mc_se","q025","median","q975"
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_AUC","higher",100,0.951042253521127,0.0177966065947127,0.00177966065947127,0.916389671361502,0.952550860719875,0.979857589984351
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_AUC","higher",100,0.862118309859155,0.0519779085092424,0.00519779085092424,0.759032863849765,0.869295774647887,0.94637558685446
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_LogLoss","lower",100,0.186631850275589,0.0144497682433591,0.00144497682433591,0.163215049041599,0.187754232269801,0.213959310044943
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_LogLoss","lower",100,1.99549204137687,0.226249631714578,0.0226249631714578,1.59929557886437,1.98277526719181,2.4642475219556
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_Brier","lower",100,0.0530253352609135,0.00457079889499662,0.000457079889499662,0.0449504000048401,0.0533040449098535,0.0616366971276102
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_Brier","lower",100,0.684708633987766,0.0564610100009851,0.00564610100009851,0.581198195593314,0.685538275510413,0.782816107406593
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_Recall_at_45","higher",100,0.784,0.0377810786172652,0.00377810786172652,0.711111111111111,0.777777777777778,0.844444444444444
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_Recall_at_15","higher",100,0.402,0.102693249433625,0.0102693249433625,0.2,0.4,0.6
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_Coverage_80","higher_with_interval_score",100,0.986225,0.00491718025052587,0.000491718025052587,0.9775,0.9875,0.995
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_Coverage_80","higher_with_interval_score",100,0.646,0.129817276402354,0.0129817276402354,0.4,0.666666666666667,0.866666666666667
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_Interval_Score_80","lower",100,0.335925,0.0480223209360065,0.00480223209360065,0.25,0.33125,0.4216875
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_Interval_Score_80","lower",100,4.186,1.16835548762119,0.116835548762119,2.2,4,6.4
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_Coverage_95","higher_with_interval_score",100,0.998975,0.00191666666666665,0.000191666666666665,0.9925,1,1
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_Coverage_95","higher_with_interval_score",100,0.972666666666667,0.0511111111111111,0.00511111111111111,0.8,1,1
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Overall_Interval_Score_95","lower",100,0.8033,0.0873659723880707,0.00873659723880707,0.639875,0.81125,0.970125
+"Fixed mixed-signal hidden-positive design","PU-PoE mu=0","Hidden_Interval_Score_95","lower",100,2.066,1.99333333333333,0.199333333333333,1,1,8.79999999999999

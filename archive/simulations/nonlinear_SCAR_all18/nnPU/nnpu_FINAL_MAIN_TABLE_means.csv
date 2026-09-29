@@ -1,0 +1,3 @@
+"scenario","method","Overall_AUC","Hidden_AUC","Overall_LogLoss","Hidden_LogLoss","Overall_Brier","Hidden_Brier","Overall_Recall_at_45","Hidden_Recall_at_15","Overall_Coverage_80","Hidden_Coverage_80","Overall_Interval_Score_80","Hidden_Interval_Score_80","Overall_Coverage_95","Hidden_Coverage_95","Overall_Interval_Score_95","Hidden_Interval_Score_95"
+"Fixed mixed-signal hidden-positive design","nnPU",0.565002190923318,0.510741784037559,0.540950135623003,5.42495963908613,0.086672241190739,0.911172834506664,0.342,0.18,NA,NA,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net",0.592925195618153,0.53181220657277,0.514522395401775,5.30470564662186,0.0816122220042504,0.907383477162698,0.376666666666667,0.177333333333333,NA,NA,NA,NA,NA,NA,NA,NA

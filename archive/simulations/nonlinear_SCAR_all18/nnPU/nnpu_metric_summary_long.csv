@@ -1,0 +1,33 @@
+"scenario","method","metric","direction","n_rep","mean","sd","mc_se","q025","median","q975"
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_AUC","higher",100,0.565002190923318,0.0546052686725358,0.00546052686725358,0.485068857589984,0.562723004694836,0.690364632237872
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_AUC","higher",100,0.510741784037559,0.085357972737492,0.00853579727374921,0.349530516431925,0.506478873239437,0.665666666666667
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_LogLoss","lower",100,0.540950135623003,0.0482465078051562,0.00482465078051562,0.439122359309405,0.549157578127956,0.605125766811169
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_LogLoss","lower",100,5.42495963908613,0.665586619724775,0.0665586619724775,4.28095106375504,5.41698370720197,6.79333806865475
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_Brier","lower",100,0.086672241190739,0.00883363149065011,0.000883363149065011,0.0731558277692003,0.0856646099150899,0.110901731167717
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_Brier","lower",100,0.911172834506664,0.0455691201428547,0.00455691201428547,0.812836391979,0.911972467061386,0.986756394589732
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_Recall_at_45","higher",100,0.342,0.059586219219614,0.0059586219219614,0.255,0.333333333333333,0.445555555555555
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_Recall_at_15","higher",100,0.18,0.0784244401768956,0.00784244401768957,0.0316666666666667,0.2,0.333333333333333
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_Coverage_80","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_Coverage_80","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_Interval_Score_80","lower",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_Interval_Score_80","lower",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_Coverage_95","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_Coverage_95","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU","Overall_Interval_Score_95","lower",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU","Hidden_Interval_Score_95","lower",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_AUC","higher",100,0.592925195618153,0.078688974381699,0.0078688974381699,0.479840375586854,0.579843505477308,0.784267605633803
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_AUC","higher",100,0.53181220657277,0.0933301806802279,0.00933301806802279,0.358521126760563,0.524600938967136,0.724694835680751
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_LogLoss","lower",100,0.514522395401775,0.0772786179386133,0.00772786179386133,0.309869325694718,0.535192122272276,0.605364807010994
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_LogLoss","lower",100,5.30470564662186,0.706864689615219,0.0706864689615219,3.84975051934048,5.38448674449361,6.58954605255026
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_Brier","lower",100,0.0816122220042504,0.00881257824310631,0.000881257824310631,0.061451761172601,0.0821920724442464,0.0936305481617548
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_Brier","lower",100,0.907383477162698,0.0450788467337999,0.00450788467337999,0.803105683275079,0.913390723787596,0.975515624079175
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_Recall_at_45","higher",100,0.376666666666667,0.0773920207670905,0.00773920207670905,0.255,0.355555555555556,0.545
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_Recall_at_15","higher",100,0.177333333333333,0.0827257310446992,0.00827257310446992,0.0316666666666667,0.2,0.368333333333333
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_Coverage_80","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_Coverage_80","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_Interval_Score_80","lower",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_Interval_Score_80","lower",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_Coverage_95","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_Coverage_95","higher_interpret_with_interval_score",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Overall_Interval_Score_95","lower",0,NA,NA,NA,NA,NA,NA
+"Fixed mixed-signal hidden-positive design","nnPU + Net","Hidden_Interval_Score_95","lower",0,NA,NA,NA,NA,NA,NA

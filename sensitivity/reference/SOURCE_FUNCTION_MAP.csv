@@ -1,0 +1,16 @@
+function,original_start_line,original_end_line,module_file,status
+make_sensitivity_spec,228,259,sensitivity/R/source_functions.R,verbatim
+calibrate_one_expert_prior,1305,1445,sensitivity/R/source_functions.R,verbatim
+make_beta0_prior_from_range,1649,1673,sensitivity/R/source_functions.R,verbatim
+make_eta_prior_from_spec,1675,1710,sensitivity/R/source_functions.R,verbatim
+calibrate_sensitivity_fit_priors,1712,1885,sensitivity/R/source_functions.R,verbatim
+make_sensitivity_model_spec,4210,4218,sensitivity/R/source_functions.R,verbatim
+make_sensitivity_signature,4220,4268,sensitivity/R/source_functions.R,verbatim
+add_fit_metadata,4270,4280,sensitivity/R/source_functions.R,verbatim
+ordered_top_nodes,4608,4613,sensitivity/R/source_functions.R,verbatim
+summarize_parameter_draws,4698,4739,sensitivity/R/source_functions.R,verbatim
+effective_size_matrix,4778,4794,sensitivity/R/source_functions.R,verbatim
+blend_colour,5036,5042,sensitivity/R/plot.R,verbatim
+make_text_strip,5175,5180,sensitivity/R/plot.R,verbatim
+make_sensitivity_panel_6x3,6274,6429,sensitivity/R/plot.R,verbatim
+make_vertical_text_strip,6431,6447,sensitivity/R/plot.R,verbatim

@@ -1,0 +1,29 @@
+"scenario","method","metric","n_rep","mean","sd","mc_se","q025","median","q975"
+"Fixed mixed-signal hidden-positive design","Ada","H_predictive_mean",100,122.214844426231,11.4307549580598,1.14307549580598,98.1727325302202,122.014059593418,144.941315643879
+"Fixed mixed-signal hidden-positive design","Ada","H_PI80_lower",100,111.31,10.8680748297502,1.08680748297502,88.425,111,132.525
+"Fixed mixed-signal hidden-positive design","Ada","H_PI80_upper",100,133.19,12.0148855486632,1.20148855486632,107.95,133,156.525
+"Fixed mixed-signal hidden-positive design","Ada","H_PI80_width",100,21.88,1.29708297437914,0.129708297437914,19,22,24
+"Fixed mixed-signal hidden-positive design","Ada + Net","H_predictive_mean",100,127.283973873107,12.1522479784187,1.21522479784187,100.783908475163,128.247646803951,146.011543752698
+"Fixed mixed-signal hidden-positive design","Ada + Net","H_PI80_lower",100,116.2,11.4996706145187,1.14996706145187,91.475,117,133.525
+"Fixed mixed-signal hidden-positive design","Ada + Net","H_PI80_upper",100,138.46,12.748872003975,1.2748872003975,110.475,140,158.525
+"Fixed mixed-signal hidden-positive design","Ada + Net","H_PI80_width",100,22.26,1.48813489124657,0.148813489124657,19,22,24
+"Fixed mixed-signal hidden-positive design","WLR","H_predictive_mean",100,46.8498937784952,2.18168253349118,0.218168253349118,40.3383366766376,46.963128904027,50.194250996525
+"Fixed mixed-signal hidden-positive design","WLR","H_PI80_lower",100,38.99,1.92534924025998,0.192534924025998,33.475,39,42
+"Fixed mixed-signal hidden-positive design","WLR","H_PI80_upper",100,54.87,2.44806664595356,0.244806664595356,47.475,55,59
+"Fixed mixed-signal hidden-positive design","WLR","H_PI80_width",100,15.88,0.670895677509559,0.0670895677509559,14,16,17
+"Fixed mixed-signal hidden-positive design","WLR + Net","H_predictive_mean",100,45.4015442914766,3.27647371224816,0.327647371224816,38.0195498576152,46.2439317424059,49.837849161532
+"Fixed mixed-signal hidden-positive design","WLR + Net","H_PI80_lower",100,37.75,2.94177504307185,0.294177504307185,30.95,38,41.525
+"Fixed mixed-signal hidden-positive design","WLR + Net","H_PI80_upper",100,53.26,3.68074432525254,0.368074432525254,44.95,54,58
+"Fixed mixed-signal hidden-positive design","WLR + Net","H_PI80_width",100,15.51,0.846800275785682,0.0846800275785682,14,16,17
+"Fixed mixed-signal hidden-positive design","INLA","H_predictive_mean",100,22.4068340441663,0.873684493109593,0.0873684493109593,19.9087453980713,22.5854066273078,23.5151336771997
+"Fixed mixed-signal hidden-positive design","INLA","H_PI80_lower",100,16.77,0.789514618821801,0.0789514618821801,14.475,17,18
+"Fixed mixed-signal hidden-positive design","INLA","H_PI80_upper",100,28.26,1.03103360906922,0.103103360906922,25.475,28,30
+"Fixed mixed-signal hidden-positive design","INLA","H_PI80_width",100,11.49,0.502418393795691,0.0502418393795691,11,11,12
+"Fixed mixed-signal hidden-positive design","INLA + Net","H_predictive_mean",100,21.382442672033,1.47474370826125,0.147474370826125,17.8539491392707,21.7847508880801,23.0930002543069
+"Fixed mixed-signal hidden-positive design","INLA + Net","H_PI80_lower",100,15.92,1.25271422491043,0.125271422491043,13,16,17
+"Fixed mixed-signal hidden-positive design","INLA + Net","H_PI80_upper",100,27.05,1.71961353421945,0.171961353421945,23,28,29
+"Fixed mixed-signal hidden-positive design","INLA + Net","H_PI80_width",100,11.13,0.661418738375885,0.0661418738375885,10,11,12
+"Fixed mixed-signal hidden-positive design","GNN","H_predictive_mean",100,20.8608733596726,1.87240788721963,0.187240788721963,16.8143589911759,20.7661260881018,24.2046202550032
+"Fixed mixed-signal hidden-positive design","GNN","H_PI80_lower",100,15.54,1.6044131058245,0.16044131058245,12,15,18
+"Fixed mixed-signal hidden-positive design","GNN","H_PI80_upper",100,26.33,2.15113312869607,0.215113312869607,22,26,30
+"Fixed mixed-signal hidden-positive design","GNN","H_PI80_width",100,10.79,0.686007332764061,0.0686007332764061,10,11,12

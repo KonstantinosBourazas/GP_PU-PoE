@@ -1,0 +1,17 @@
+"scenario","method","metric","direction","n_rep","mean","sd","mc_se","q025","median","q975"
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_AUC","higher",100,0.855695774647887,0.024159439606284,0.0024159439606284,0.808137715179969,0.856369327073552,0.904636932707355
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_AUC","higher",100,0.579158685446009,0.0734789302595328,0.00734789302595328,0.435788732394366,0.581784037558685,0.737699530516432
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_LogLoss","lower",100,0.215480336227219,0.0111653394673527,0.00111653394673527,0.195499966821529,0.215700306673402,0.239585847295098
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_LogLoss","lower",100,3.49448346854759,0.377629648938113,0.0377629648938113,2.76421096137175,3.49584369392544,4.1392251535963
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_Brier","lower",100,0.0534730991988823,0.00417376113206311,0.000417376113206311,0.0470560781563406,0.0529671813448616,0.0629142655693902
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_Brier","lower",100,0.881969391754027,0.0346061822138796,0.00346061822138796,0.807856656521735,0.888762808715306,0.931191247881966
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_Recall_at_45","higher",100,0.698666666666667,0.0327208983552669,0.00327208983552669,0.644444444444444,0.688888888888889,0.767222222222222
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_Recall_at_15","higher",100,0.156666666666667,0.0811671316160053,0.00811671316160053,0.0666666666666667,0.133333333333333,0.333333333333333
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_Coverage_80","higher_interpret_with_interval_score",100,0.96835,0.00367938565359474,0.000367938565359474,0.9625,0.9675,0.975
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_Coverage_80","higher_interpret_with_interval_score",100,0.203333333333333,0.096806470366531,0.0096806470366531,0.0666666666666667,0.2,0.4
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_Interval_Score_80","lower",100,0.451275,0.0352632506078828,0.00352632506078828,0.384875,0.4575,0.512625
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_Interval_Score_80","lower",100,8.17,0.871258233298779,0.0871258233298779,6.4,8.2,9.4
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_Coverage_95","higher_interpret_with_interval_score",100,0.982325,0.00501582092941521,0.000501582092941521,0.9736875,0.9825,0.9925
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_Coverage_95","higher_interpret_with_interval_score",100,0.531333333333333,0.132812112546474,0.0132812112546474,0.298333333333333,0.533333333333333,0.8
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Overall_Interval_Score_95","lower",100,1.20025,0.162142185700817,0.0162142185700817,0.85925,1.2175,1.5135
+"Fixed mixed-signal covariate-driven SAR design, lambda = 2","GP-Cov","Hidden_Interval_Score_95","lower",100,19.278,5.17967238931247,0.517967238931248,8.79999999999999,19.2,28.365

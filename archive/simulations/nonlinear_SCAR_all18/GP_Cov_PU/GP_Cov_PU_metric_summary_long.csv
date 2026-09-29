@@ -1,0 +1,17 @@
+"scenario","method","metric","direction","n_rep","mean","sd","mc_se","q025","median","q975"
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_AUC","higher",100,0.906975273865415,0.0244825420753653,0.00244825420753653,0.851661971830986,0.90773082942097,0.948165884194053
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_AUC","higher",100,0.763207511737089,0.0592580443737482,0.00592580443737482,0.645028169014085,0.766009389671362,0.860793427230047
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_LogLoss","lower",100,0.220821801629722,0.0169203713611725,0.00169203713611725,0.190651930927813,0.218575201423615,0.256559235820127
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_LogLoss","lower",100,2.24809444292699,0.200121800564928,0.0200121800564928,1.89102471861466,2.24764902054315,2.64962403309423
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_Brier","lower",100,0.0626169765520031,0.00528386955113012,0.000528386955113012,0.0545756415397694,0.0619368905063485,0.0740782495912215
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_Brier","lower",100,0.745682462464387,0.038691072784591,0.0038691072784591,0.669595691077596,0.750259470183966,0.808550532629796
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_Recall_at_45","higher",100,0.705555555555556,0.0464609865342352,0.00464609865342352,0.610555555555556,0.711111111111111,0.8
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_Recall_at_15","higher",100,0.299333333333333,0.0986986025301987,0.00986986025301987,0.133333333333333,0.266666666666667,0.466666666666667
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_Coverage_80","higher_interpret_with_interval_score",100,0.980975,0.0053993896961517,0.00053993896961517,0.97,0.98125,0.99
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_Coverage_80","higher_interpret_with_interval_score",100,0.567333333333333,0.117012954092121,0.0117012954092121,0.333333333333333,0.6,0.768333333333333
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_Interval_Score_80","lower",100,0.4251,0.0547075789257685,0.00547075789257685,0.3386875,0.42125,0.5390625
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_Interval_Score_80","lower",100,4.894,1.05311658682909,0.105311658682909,3.085,4.6,7
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_Coverage_95","higher_interpret_with_interval_score",100,0.998,0.00238365647311397,0.000238365647311397,0.9925,0.9975,1
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_Coverage_95","higher_interpret_with_interval_score",100,0.947333333333333,0.062348357000413,0.0062348357000413,0.8,0.933333333333333,1
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Overall_Interval_Score_95","lower",100,0.909625,0.0899981586511971,0.00899981586511971,0.7310625,0.9175,1.0663125
+"Fixed mixed-signal hidden-positive design","GP-Cov + PU","Hidden_Interval_Score_95","lower",100,3.054,2.43158592301611,0.243158592301611,1,3.6,8.79999999999999

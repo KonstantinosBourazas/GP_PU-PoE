@@ -1,0 +1,17 @@
+"scenario","method","metric","direction","n_rep","mean","sd","mc_se","q025","median","q975"
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_AUC","higher",100,0.938597183098592,0.018412909258442,0.0018412909258442,0.900162754303599,0.941001564945227,0.968841940532081
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_AUC","higher",100,0.821141784037559,0.0541260726395141,0.00541260726395141,0.719450704225352,0.827793427230047,0.912032863849765
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_LogLoss","lower",100,0.191028512422032,0.0116035447918342,0.00116035447918342,0.168355728375468,0.19107442479789,0.209075476542526
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_LogLoss","lower",100,2.08685443504328,0.237107359822493,0.0237107359822493,1.53870321587154,2.09247924104156,2.5314700902798
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_Brier","lower",100,0.0528591483197222,0.00342401619065427,0.000342401619065427,0.046554193438287,0.0529624571415978,0.0585607666109245
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_Brier","lower",100,0.711788225861653,0.0626846436806947,0.00626846436806947,0.551256564582823,0.717261569708325,0.805976731828413
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_Recall_at_45","higher",100,0.764444444444444,0.0433075695375449,0.00433075695375449,0.688888888888889,0.755555555555556,0.844444444444444
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_Recall_at_15","higher",100,0.332666666666667,0.120043015111218,0.0120043015111218,0.133333333333333,0.333333333333333,0.6
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_Coverage_80","higher_with_interval_score",100,0.98565,0.00470895343194669,0.000470895343194669,0.9775,0.985,0.9925
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_Coverage_80","higher_with_interval_score",100,0.618666666666667,0.125736438936049,0.0125736438936049,0.4,0.6,0.8
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_Interval_Score_80","lower",100,0.385625,0.0450103453315867,0.00450103453315867,0.3075,0.385,0.47025
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_Interval_Score_80","lower",100,4.432,1.13162795042444,0.113162795042444,2.8,4.6,6.4
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_Coverage_95","higher_with_interval_score",100,0.99875,0.00208711777484179,0.000208711777484179,0.9925,1,1
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_Coverage_95","higher_with_interval_score",100,0.966666666666667,0.0556564739957814,0.00556564739957814,0.8,1,1
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Overall_Interval_Score_95","lower",100,0.825025,0.0910880464000062,0.00910880464000062,0.6835625,0.81625,1.03525
+"Linear Gaussian covariates and Bernoulli SBM, fixed mixed-signal SCAR design","PU-PoE","Hidden_Interval_Score_95","lower",100,2.3,2.17060248583548,0.217060248583547,1,1,8.79999999999999

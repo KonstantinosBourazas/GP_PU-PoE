@@ -1,0 +1,6 @@
+  ## Full mode keeps the schedule of the paper; quick mode uses a shorter one
+  ## with the same transition kernels.
+  validate_illustration_schedule(
+    n_blocked_burnin, n_joint_burnin, n_sample, thin,
+    paper_schedule = identical(RUN_MODE, "full")
+  )

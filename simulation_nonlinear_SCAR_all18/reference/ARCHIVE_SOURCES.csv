@@ -1,0 +1,9 @@
+group,original_folder,prefix,checkpoint_pattern,source,methods,production_replications,source_script
+Competitors,SIMULATION_100_COMPETING_METHODS_MIXED_SIGNAL,competing_methods,,SIMULATION_100_COMPETING_METHODS_COMPLETE_RESULTS.RData::replication_results,7,100,0. competing_methods.R
+Bayesian_linear,SIMULATION_100_BAYESIAN_LINEAR_5_PILOTS,Bayesian_linear,replicate_%03d.rds,production_checkpoints/replicate_%03d.rds,4,100,1.-4. Bayesian_linear_models.R
+GP_Cov,SIMULATION_100_GP_COV_SELF_CALIBRATING_PRIORS,GP_Cov,GP_Cov_replicate_%03d.rds,production_checkpoints/GP_Cov_replicate_%03d.rds,1,100,5. GP Cov.R
+GP_Cov_PU,SIMULATION_100_GP_COV_PU_SELF_CALIBRATING_PRIORS,GP_Cov_PU,GP_Cov_PU_replicate_%03d.rds,production_checkpoints/GP_Cov_PU_replicate_%03d.rds,1,100,6. GP Cov-PU.R
+GP_PoE,SIMULATION_100_FULL_POE_SELF_CALIBRATING_PRIORS,PoE,PoE_replicate_%03d.rds,production_checkpoints/PoE_replicate_%03d.rds,1,100,7. GP PoE.R
+GP_PU_PoE,SIMULATION_100_FULL_PU_POE_SELF_CALIBRATING_PRIORS,PU_PoE,PU_PoE_replicate_%03d.rds,production_checkpoints/PU_PoE_replicate_%03d.rds,1,100,8. GP PU-PoE.R
+GP_PU_PoE_beta0,SIMULATION_100_FULL_PU_POE_MU0_SELF_CALIBRATING_PRIORS,PU_PoE_mu0,PU_PoE_mu0_replicate_%03d.rds,production_checkpoints/PU_PoE_mu0_replicate_%03d.rds,1,100,9. GP PU-PoE m=0.R
+nnPU,SIMULATION_100_NNPU_MIXED_SIGNAL_SAME_DATA_CORRECTED,nnpu,replicate_%03d.rds,replicate_checkpoints/replicate_%03d.rds,2,100,10. nnPU.R

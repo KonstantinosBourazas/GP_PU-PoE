@@ -1,0 +1,13 @@
+file,md5
+R/illustration/cache.R,1d28df474e3bb98c5b3beea3f3f0d1de
+R/illustration/diagnostics.R,3b349278e4860eda5f76381eb8404779
+R/illustration/fit_and_summarize.R,cdaedda0c4174cd556bf6cf76abb08e0
+R/illustration/geometry.R,9139b7394f3561f7b47580bfb7b7cc0d
+R/illustration/helpers.R,ae5d5e7f3f2e634ca07c6ffb0aa70f0d
+R/illustration/plot.R,35bb39e97632ca97f5287bb694c9b441
+R/illustration/prepare.R,39fd8d4622e890162cf220ae189c9512
+R/illustration/priors.R,539c765d8738e81aa07932b0c587a763
+R/illustration/sampler.R,f4fda06a007a287b25f31ff2a7e32958
+R/illustration/summaries.R,e369b6c1e89e48be2a4795650ea8950c
+R/illustration/workflow.R,0b047ef5a48a90ed70c59dce5947eb9f
+config/illustration.R,e4689ffe805b302b31dab0880ef4b4d7

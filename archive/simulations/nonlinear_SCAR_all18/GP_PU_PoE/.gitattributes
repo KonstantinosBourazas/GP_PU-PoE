@@ -1,0 +1,4 @@
+*.rds -text
+*.RData -text
+*.csv -text
+*.txt -text
